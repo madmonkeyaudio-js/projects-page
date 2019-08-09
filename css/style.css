@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+header {
+    border: 1px solid black;
+}
+main {
+    border: 1px solid red;
+    height: 85vh;
+}
+form {
+    height: 20vh;
+    border: 1px solid black;
+}
