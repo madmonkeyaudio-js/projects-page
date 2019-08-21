@@ -6,12 +6,37 @@ body {
 }
 header {
     border: 1px solid black;
+    display: flex;
+    height: 5vh;
+    background-image: linear-gradient(rgba(43, 201, 164, 0.671), rgba(0, 225, 255, 0.89))
+}
+nav a{
+    text-decoration: none;
+}
+nav li{
+    text-decoration: none;
+    display: inline;
+}
+#resume {
+  border: 1px solid black;
+  margin: 5px auto;
 }
 main {
-    border: 1px solid red;
     height: 85vh;
 }
 form {
-    height: 20vh;
+    height: 70vh;
     border: 1px solid black;
+    background-color: rgb(250, 248, 248);
+   
+}
+.project {
+    height: 15vh;
+    border: 1px solid black;
+}
+.example {
+    border: 1px solid blue;
+    float: right;
+    width: 50%; 
+    height: 100%;
 }
